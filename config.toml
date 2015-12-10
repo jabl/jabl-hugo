@@ -1,3 +1,19 @@
 baseurl = "https://jabl.github.io/"
 languageCode = "en-us"
 title = "Janne Blomqvist"
+theme = "hugo-icarus-theme"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug"
+
+
+[params]
+    # Tell me who you're
+    author = "Janne Blomqvist"
+    bio = ""
+    location = "Earth"
+    site_description = ""
+    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+
+    # Format dates with Go's time formating
+    date_format = "2006-01-02"
