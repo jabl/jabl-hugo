@@ -13,7 +13,24 @@ theme = "hugo-icarus-theme"
     bio = ""
     location = "Earth"
     site_description = ""
-    copyright  = "Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
+    copyright  = "Content by Janne Blomqvist. Powered by [Hugo](//gohugo.io). Theme by [PPOffice](http://github.com/ppoffice)."
 
     # Format dates with Go's time formating
     date_format = "2006-01-02"
+
+#[[params.menu]]
+#    before = true
+#    label  = "Home"
+#    link   = "/"
+
+[[params.menu]]
+    before = false
+    label  = "About"
+    link   = "about/"
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    recent_articles = false
+    categories = true
+    tags = true
+    tag_cloud = true
